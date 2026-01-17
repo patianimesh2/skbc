@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Login - SKBC</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">🏘️ SKBC Hostel - Admin</div>
+    <div class="nav-toggle" id="navToggle">☰</div>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/login.html">Student Login</a></li>
+    </ul>
+  </nav>
+  
+  <main class="login-wrap">
+    <h2>🛡️ Admin Login</h2>
+    <form id="adminLogin">
+      <div class="form-group">
+        <label>👤 Username</label>
+        <input type="text" id="username" placeholder="admin" required />
+      </div>
+      <div class="form-group">
+        <label>🔑 Password</label>
+        <input type="password" id="apassword" placeholder="admin123" required />
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div class="note">
+      👤 Username: <strong>admin</strong><br>
+      🔑 Password: <strong>admin123</strong>
+    </div>
+  </main>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

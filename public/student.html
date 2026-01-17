@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Dashboard - SKBC</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">🏘️ SKBC Hostel</div>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </nav>
+  
+  <main class="container">
+    <h2 id="name">👤 Student Name</h2>
+    <div id="details"></div>
+
+    <h3>🍽️ Meal Management</h3>
+    <div class="stats-grid" id="mealStats"></div>
+    <div class="meal-toggle" id="mealControls"></div>
+
+    <h3>📅 Monthly Summary</h3>
+    <div class="stats-grid" id="summary"></div>
+    
+    <h3>📊 Current Date Information</h3>
+    <p id="dateInfo"></p>
+  </main>
+  
+  <script src="/js/student.js"></script>
+</body>
+</html>

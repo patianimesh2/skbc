@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Dashboard - SKBC</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">🛡️ SKBC Admin Dashboard</div>
+    <button onclick="logoutAdmin()" class="logout-btn">Logout</button>
+  </nav>
+  
+  <main class="container">
+    <h2>📊 Room Management System</h2>
+    
+    <h3>📈 Today's Meal Statistics</h3>
+    <div class="stats-grid" id="todayStats"></div>
+
+    <h3>🏠 Select Room</h3>
+    <div class="room-grid" id="rooms"></div>
+    
+    <h3>👥 Room Students & Details</h3>
+    <div id="roomDetails"></div>
+  </main>
+  
+  <script src="/js/admin.js"></script>
+</body>
+</html>
